@@ -9,6 +9,7 @@ a {
 html {
   height: 100%;
   display: flex;
+  overflow-y: hidden; /* Bulma explicitly sets this to scroll, creating a scrollbar where Openspace does not need one */
 }
 
 body {
